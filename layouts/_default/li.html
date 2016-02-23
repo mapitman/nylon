@@ -1,0 +1,16 @@
+<a href="{{ .Permalink }}">
+<paper-card heading="{{ .Title }}" style="width:100%" elevation="2">
+    <div class="post-date pull-left card-content">
+        Posted on
+        <time datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00 " | safeHTML }}">
+            {{ .Date.Format "Jan 2, 2006" }}
+        </time>
+    </div>
+    <div class="card-content">
+
+        <div>
+            {{ .Summary }}
+        </div>
+    </div>
+</paper-card>
+</a>

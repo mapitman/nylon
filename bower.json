@@ -1,0 +1,23 @@
+{
+  "name": "nylon",
+  "authors": [
+    "Mark Pitman <mark@pitman.bz>"
+  ],
+  "description": "Hugo theme based on the Polymer Project",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/mapitman/nylon",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.2.4",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.7"
+  }
+}
